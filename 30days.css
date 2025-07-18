@@ -45,3 +45,29 @@ h2 {
     background-color:burlywood;
 }
 
+.Jadwal-SMK caption {
+    caption-side: top;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.Jadwal-SMK {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Jadwal-SMK th, .Jadwal-SMK td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+} 
+
+.Jadwal-SMK tbody tr:nth-child(even) {
+    background-color: chartreuse;
+}
+  
+
+
