@@ -65,8 +65,22 @@ h2 {
     text-align: center;
 } 
 
-.Jadwal-SMK tbody tr:nth-child(even) {
+.Jadwal-SMK tbody tr:nth-child(even):not(.Rabu) {
     background-color: chartreuse;
+}
+
+.Jadwal-SMK tbody tr:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.Jadwal-SMK thead {
+    background-color:darkgoldenrod;
+}
+
+.Jadwal-SMK tfoot {
+    background-color:white;
+    font-weight: bold;
 }
   
 
