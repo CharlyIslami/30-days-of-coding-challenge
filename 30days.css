@@ -123,6 +123,84 @@ h2 {
 .Jadwal-ekstrakurikuler tfoot {
     background-color:#cce5ff;
     font-weight: bold;
+    text-align: center;
+}
+
+.Tabel-lebih-banyak-styling {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.Tabel-lebih-banyak-styling caption {
+    border: 2px solid black;
+    caption-side: top;    
+    font-weight: bold;
+    font-size: 20px;
+    background-color: salmon;
+}
+
+.Tabel-lebih-banyak-styling thead {
+    background-color: #3a86ff;
+    
+}
+
+.Tabel-lebih-banyak-styling thead th {
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Tabel-lebih-banyak-styling th, .Tabel-lebih-banyak-styling td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.Tabel-lebih-banyak-styling tbody tr {
+    transition: all 0.3s ease;
+}
+
+.Tabel-lebih-banyak-styling tbody tr.Basket:hover {
+    cursor: pointer;
+    background-color: moccasin;
+    transform: scale(1.03);
+}
+
+.Tabel-lebih-banyak-styling tbody tr.Pramuka:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    transform: scale(1.03);
+}
+
+.Tabel-lebih-banyak-styling tbody tr.Voli:hover {
+    cursor: pointer;
+    background-color: #e0f7fa;
+    transform: scale(1.03);
+}
+
+.Tabel-lebih-banyak-styling tbody tr.PaduanSuara:hover {
+    cursor: pointer;
+    background-color: #f3e5f5;
+    transform: scale(1.03);
+}
+
+.Tabel-lebih-banyak-styling tbody tr.PMR:hover {
+    cursor: pointer;
+    background-color: #fce4ec;
+    transform: scale(1.03);
+}
+
+.Tabel-lebih-banyak-styling tfoot {
+    background-color: #f9f9f9;
+   
+}
+
+.Tabel-lebih-banyak-styling tfoot td {
+    font-weight: 500;
+    font-style: italic;
 }
   
 
