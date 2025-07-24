@@ -207,6 +207,58 @@ h2 {
     font-weight: 500;
     font-style: italic;
 }
-  
 
+.form-day13 {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
 
+.form-day13 .form-container {
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-day13 .form-title {
+  text-align: center;
+  color: #333;
+}
+
+.form-day13 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-day13 label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-day13 input[type="text"],
+.form-day13 select,
+.form-day13 textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.form-day13 button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.form-day13 button:hover {
+  background-color: #0d72d9;
+}
