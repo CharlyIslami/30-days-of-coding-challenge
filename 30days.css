@@ -538,5 +538,72 @@ form label {
   background-color: #fa5252;
 }
 
+.form-day18 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: turquoise;
+  min-height: 100vh;
+}
 
+.form-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333333;
+}
+
+/* Input, Select, Textarea */
+.form-container label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Textarea khusus */
+.form-container textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Tombol Kirim */
+.form-container button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
 
