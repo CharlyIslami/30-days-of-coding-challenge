@@ -607,3 +607,74 @@ form label {
   background-color: #0056b3;
 }
 
+.form-day19 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.form-day19 h2 {
+  text-align: center;
+  color: #aa1e1e;
+  margin-bottom: 20px;
+}
+
+.form-day19 form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-day19 form input,
+.form-day19 form select,
+.form-day19 form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  }
+
+.form-day19 input[type="color"] {
+  height: 50px;
+  padding: 0;
+}
+
+.form-day19 input[type="range"] {
+  width: 100%;
+}
+
+.form-day19 fieldset {
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.form-day19 legend {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.form-day19 button {
+  width: 100%;
+  background-color: #aa1e1e;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.form-day19 button:hover {
+  background-color: #800000;
+}
+
+
