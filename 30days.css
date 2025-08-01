@@ -708,7 +708,7 @@ form label {
 }
 
 .jir-kucing:hover {
-  transform: 3s;
+  transform: scale(1.05);
   box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
@@ -779,6 +779,18 @@ a {
 
 a:hover {
   color: #e63946;
+}
+
+.footer-day20 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #1d3557;
+  color: #f1faee;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 900px;
 }
 
 
