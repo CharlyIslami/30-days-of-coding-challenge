@@ -793,5 +793,155 @@ a:hover {
   max-width: 900px;
 }
 
+/* Container utama */
+.container-day21 {
+  background-color: #f9f9fb;
+  min-height: 100vh;
+  margin-top: 100px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.header-day21 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-day21 h1 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.header-day21 h2 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.header-day21 p {
+  margin-top: 15px;
+  color: #666;
+}
+
+/* Main form container */
+.main-day21 {
+  width: 100%;
+  max-width: 650px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul form */
+.main-day21 h3 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Form */
+.form-day21 form {
+  display: grid;
+  gap: 20px;
+}
+
+/* Input dan label standar */
+label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Radio Group */
+.form-group .label-rating {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.rating-options {
+  display: grid;
+  gap: 10px;
+}
+
+/* Checkbox Group */
+.label-checkbox {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+  color: #333;
+}
+
+.checkbox-group {
+  display: grid;
+  gap: 10px;
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+}
+
+/* Tombol Submit */
+.form-kirim button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.form-kirim button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  .main-day21 {
+    padding: 20px;
+  }
+
+  .header-day21 h1 {
+    font-size: 1.6rem;
+  }
+
+  .header-day21 h2 {
+    font-size: 1.1rem;
+  }
+
+  .main-day21 h3 {
+    font-size: 1rem;
+  }
+}
+
 
 
