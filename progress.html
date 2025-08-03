@@ -1297,7 +1297,7 @@
     <p>Terima kasih telah mengunjungi halaman saya!</p>
   </footer>
 
-  <!-- Day 21 -->
+ <!-- Day 21 -->
 <div class="container-day21">
   <header class="header-day21">
     <h1>Charly Islami</h1>
@@ -1323,28 +1323,24 @@
         <!-- Rating -->
         <div class="form-group">
           <p class="label-rating">Seberapa puas kamu dengan website kami?</p>
-          
+
           <div class="rating-options">
             <div>
               <input type="radio" id="rating-1" name="rating" value="1" required>
               <label for="rating-1">⭐ Sangat Tidak Puas</label>
             </div>
-
             <div>
               <input type="radio" id="rating-2" name="rating" value="2">
               <label for="rating-2">⭐⭐ Tidak Puas</label>
             </div>
-
             <div>
               <input type="radio" id="rating-3" name="rating" value="3">
               <label for="rating-3">⭐⭐⭐ Biasa Saja</label>
             </div>
-
             <div>
               <input type="radio" id="rating-4" name="rating" value="4">
               <label for="rating-4">⭐⭐⭐⭐ Puas</label>
             </div>
-
             <div>
               <input type="radio" id="rating-5" name="rating" value="5">
               <label for="rating-5">⭐⭐⭐⭐⭐ Sangat Puas</label>
@@ -1353,8 +1349,7 @@
         </div>
 
         <!-- Favorit -->
-
-       <div class="form-favorit">
+        <div class="form-favorit">
           <label class="label-checkbox">Bagian yang paling kamu sukai dari website kami:</label>
 
           <div class="checkbox-group">
@@ -1374,49 +1369,135 @@
             </label>
 
             <label for="kecepatan">
-              <input type="checkbox" id="kecepatan" name="favorit" value="kecepatan">
+              <input type="checkbox" id="kecepatan" name="favorit" value="Kecepatan">
               Kecepatan akses
             </label>
           </div>
-       </div>
+        </div>
 
-         <!-- Pesan dan saran -->
-         <div class="form-pesan">
+        <!-- Pesan dan saran -->
+        <div class="form-pesan">
           <label for="pesan">Pesan dan saran:</label>
           <textarea id="pesan" name="pesan" rows="5" cols="40" placeholder="Tuliskan pesan atau saran kamu disini..." required></textarea>
-         </div>
+        </div>
 
-         <div class="form-tanggal">
+        <!-- Tanggal kunjungan -->
+        <div class="form-tanggal">
           <label for="tanggal">Kapan kamu mengunjungi website kami?</label>
           <input type="date" id="tanggal" name="tanggal" required>
-         </div>
+        </div>
 
-         <!-- Jenis perangkat -->
-          <div class="form-perangkat">
-            <label for="perangkat">Jenis perangkat yang di pakai:</label>
-            <select id="perangkat" name="perangkat" required>
-              <option value="">--Pilih jenis perangkat--</option>
-              <option value="Smartphone">Telepon genggam</option>
-              <option value="Tablet">Tablet</option>
-              <option value="Laptop">Laptop</option>
-              <option value="lainnya">Lainnya</option>
-           </select>
-          </div>
+        <!-- Jenis perangkat -->
+        <div class="form-perangkat">
+          <label for="perangkat">Jenis perangkat yang dipakai:</label>
+          <select id="perangkat" name="perangkat" required>
+            <option value="">--Pilih jenis perangkat--</option>
+            <option value="Smartphone">Telepon genggam</option>
+            <option value="Tablet">Tablet</option>
+            <option value="Laptop">Laptop</option>
+            <option value="Lainnya">Lainnya</option>
+          </select>
+        </div>
 
-          <!-- submit -->
-           <div class="form-kirim">
-            <button type="submit">Kirim Formulir</button>
-           </div>
-          
+        <!-- Tombol submit -->
+        <div class="form-kirim">
+          <button type="submit">Kirim Formulir</button>
+        </div>
 
-        
-
-      </form> 
-    </div>
+      </form>
+    </div>  
   </main>
 </div>
 
-    
+<!-- Day 22 -->
+<header class="header-day22">
+  <h1>Charly Islami</h1>
+  <h2>30 Days of Coding Challenge - Day 22</h2>
+  
+</header>
+
+<main class="grid-container">
+  <!-- Card untuk pengantar -->
+  <section class="card pengantar">
+    <p>
+      Ini adalah portofolio pribadi saya sebagai bagian dari tantangan 30 Days of Coding Challenge.
+      Halaman ini dibuat menggunakan HTML dan CSS Grid untuk menampilkan informasi tentang diri saya, keahlian,
+      dan proyek terbaik yang telah saya kerjakan.
+    </p>
+  </section>
+
+  <!-- Card untuk informasi diri -->
+  <section class="card informasi-diri">
+    <img src="cukurukuk.jpg" alt="Foto Charly Islami" class="foto-profil">
+    <div class="info-profil">
+      <h3>Charly Islami</h3>
+      <p>Frontend Developer Enthusiast</p>
+    </div>
+  </section>
+
+  <!-- Card untuk keahlian -->
+  <section class="card tentang-dan-keahlian">
+    <div class="tentang">
+      <h4>Tentang Saya</h4>
+      <p>Saya adalah siswa SMK jurusan PPLG yang sedang mengikuti tantangan 30 Days of Coding untuk meningkatkan keterampilan dalam HTML, CSS, dan web development.</p>
+    </div>
+  </section>
+
+  <!-- Card Pendidikan dan Proyek -->
+  <section class="card pendidikan-dan-proyek">
+    <!-- Bagian Pendidikan -->
+    <div class="card pendidikan">
+      <h4>Pendidikan</h4>
+      <p>SMK Negeri 7 Pekanbaru Jurusan PPLG (2024-sekarang)</p>
+    </div>
+
+    <!-- Bagian Proyek -->
+    <div class="card proyek">
+      <h4>Proyek Terbaik</h4>
+      <ul class="daftar-proyek">
+        <li class="card-proyek">
+          <a href="https://github.com/CharlyIslami/30-days-of-coding-challenge" target="_blank">
+            Proyek 30 Days of Coding
+          </a>
+          <p>Mengerjakan tantangan harian HTML, CSS selama 30 hari untuk meningkatkan skill.</p>
+        </li>
+        <li class="card-proyek">
+          <a href="https://github.com/CharlyIslami/tugas-eduwork-biodata" target="_blank">
+            Proyek dari bootcamp Eduwork
+          </a>
+          <p>Profil biodata HTML & CSS pertama, dibuat untuk tugas GitHub pertama saat bootcamp.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Card Kontak dan Sosial Media -->
+  <section class="card kontakk">
+    <div class="kontak">
+      <h4>Kontak Saya</h4>
+      <p>Email: <a href="mailto:charlyislami19@gmail.com">charlyislami19@gmail.com</a></p>
+      <p>Whatsapp: <a href="https://wa.me/6281371609234">0813-7160-9234</a></p>
+    </div>
+  </section>
+
+  <section class="card sosial-mediaa">
+    <div class="social-mediaa">
+      <h4>Sosial Media</h4>
+      <ul class="daftar-sosmed">
+        <li>
+          <a href="https://github.com/CharlyIslami" target="_blank">Github</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/charr.365/" target="_blank">Instagram</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+  <footer class="footer-day22">
+    <p>© 2025 Charly Islami. All rights reserved.</p>
+    <p>Terima kasih telah mengunjungi portofolio saya!</p>
+  </footer>
 </body>
-</html>
+ </html>
 

@@ -759,25 +759,21 @@ form label {
   margin-bottom: 15px;
 }
 
-ul {
+.main-day20 ul {
   padding-left: 20px;
 }
 
-ul li {
+.main-day20 li {
   margin-bottom: 10px;
 }
-a {
-  color: #1d3557;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-a {
+
+.section-day20 a {
   color: #457b9d;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
 
-a:hover {
+.section-day20:hover {
   color: #e63946;
 }
 
@@ -850,20 +846,20 @@ a:hover {
 }
 
 /* Input dan label standar */
-label {
+.main-day21 label {
   font-weight: 600;
   color: #333;
   display: block;
   margin-bottom: 6px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="date"],
-select,
-textarea {
+.main-day21  input[type="text"],
+.main-day21 input[type="email"],
+.main-day21 input[type="date"],
+.main-day21 select,
+.main-day21 textarea {
   width: 100%;
-  padding: 10px 14px;
+  padding: 1opx 14px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
@@ -878,7 +874,7 @@ textarea:focus {
 }
 
 /* Radio Group */
-.form-group .label-rating {
+.main-day21 .form-group .label-rating {
   margin-bottom: 10px;
   font-weight: 600;
   color: #333;
@@ -903,7 +899,7 @@ textarea:focus {
 }
 
 /* Textarea */
-textarea {
+.main-day21 textarea {
   resize: vertical;
 }
 
@@ -942,6 +938,128 @@ textarea {
     font-size: 1rem;
   }
 }
+
+.header-day22 {
+  margin-top: 50px;
+  padding: 50px 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-bottom: 3px solid white;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  border-radius: 0 0 30px 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.foto-profil {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 1px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin: 10px;
+  color: black; 
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition transform 0.3s ease, background-color 0.3 ease;
+  background-color: lightblue;
+}
+
+.pengantar {
+  background-color: #f9f9f9;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-style: italic;
+  border-left:  4px solid #007BFF;
+}
+
+.informasi-diri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-left:  4px solid #007BFF;
+}
+
+.info-profil h3 {
+  margin: 10px 0 5px;
+}
+
+.tentang-dan-keahlian {
+  border-left:  4px solid #007BFF;
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
+.pendidikan, .proyek {
+  margin-bottom: 15px;
+}
+
+.pendidikan h4, .proyek h4 {
+  color: #007BFF;
+  margin-bottom: 5px;
+}
+
+.pendidikan-dan-proyek {
+  border-left: 4px solid #007BFF;
+}
+
+.kontakk {
+  border-left: 4px solid #007BFF;
+}
+
+.sosial-mediaa {
+  border-left: 4px solid #007BFF;
+}
+
+.sosial-mediaa ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sosial-mediaa li {
+  margin: 5px 0;
+}
+
+.social-mediaa {
+  text-align: center;
+}
+
+.kontak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-day22 {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+
+
+
+
 
 
 
