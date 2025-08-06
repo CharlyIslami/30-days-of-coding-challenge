@@ -973,11 +973,11 @@ textarea:focus {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   margin: 10px;
   color: black; 
+  transition: transform 0.2s;
 }
 
 .card:hover {
   transform: scale(1.02);
-  transition transform 0.3s ease, background-color 0.3 ease;
   background-color: lightblue;
 }
 
