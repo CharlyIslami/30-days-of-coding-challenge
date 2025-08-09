@@ -1131,7 +1131,8 @@ textarea:focus {
 
 .features {
   padding: 60px 20px;
-  background-color: #f9f9f9
+  background-color: #f9f9f9;
+  border-radius: 7px;
 }
 
 .features-container {
@@ -1143,6 +1144,8 @@ textarea:focus {
 .features-container h2 {
   font-size: 2rem;
   margin-bottom: 40px;
+  color: #003366;
+  
 }
 
 .card-container {
@@ -1156,6 +1159,12 @@ textarea:focus {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card-day23:hover {
+  transform: scale(1.03);
+  cursor: pointer;
 }
 
 .card-day23 img.card-image {
@@ -1174,7 +1183,134 @@ textarea:focus {
   color: #555;
 }
 
+.learning-points {
+  background-color: #e6f7ff;   
+  padding: 50px 20px;
+  margin-top: 50px;
+  border-radius: 7px;
+}
 
+.learning-points h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #003366 ;
+}
+
+.learning-points ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;  
+}
+
+.learning-points li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+  padding-left: 30px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.learning-points li::before {
+  content: "✅";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.testimonials {
+  margin: 0 auto;
+  background-color: #e6f7ff;
+  padding: 50px 20px;
+  margin-top: 50px;
+  height: auto;
+  border-radius: 7px;
+  
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  color: #003366;
+  margin-bottom: 40px;
+  letter-spacing: 0.04em;
+}
+
+.testimonials-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card-testi {
+  width: 300px;
+  background-color: whitesmoke;
+  padding: 20px 30px;
+  border-radius: 7px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  color: #333;
+}
+
+.card-testi:hover {
+  transform: translate(-10px, -20px);
+  cursor: pointer;
+}
+
+.cta {
+  background-color: #e6f7ff;
+  margin-top: 50px;
+  padding: 20px 30px;
+  border-radius: 7px;
+  height: auto;
+}
+
+.cta p {
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+}
+
+.cta a {
+  text-decoration: none;
+  color: white;
+  background-color: #0077cc;
+  padding: 1rem;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cta a:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cta h2 {
+  color: #003366;
+  margin-top: 40px;
+}
+
+.footer-day23 {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-top: 3px solid #0077cc;
+}
+
+.footer-day23 p {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
 
 
 
