@@ -1676,6 +1676,99 @@
 
   </footer>
 
+  <!-- Day 25 -->
+  <header class="header-day25">
+    <h1>Charly Islami</h1>
+    <h2>30 Days of Coding challenge - Day24</h2>
+  </header>
+  <main class="mainDay-25">
+    <h2 class="title-Day25">Form Lamaran Kerja Online</h2>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Data Pribadi</legend>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" name="nama" id="nama" placeholder="Masukan nama lengkap" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Masukan email" required>
+
+        <label for="nomor">Nomor Telepon:</label>
+        <input type="tel" id="nomor" name="nomor" placeholder="Contoh: +62xxxxxx">
+
+        <label for="alamat">Alamat:</label>
+        <textarea name="alamat" id="alamat" placeholder="JL. Garuda sakti" rows="5" cols="35"></textarea>
+
+        <label for="tgl-lahir">Tanggal Lahir</label>
+        <input type="date" id="tgl-lahir" name="tgl-lahir" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Posisi & Informasi Lamaran</legend>
+        <label for="posisi">Posisi yang Dilamar</label>
+        <select name="posisi" id="posisi">
+          <option value=""> -- Posisi -- </option>
+          <option value="frontend">Frontend Developer</option>
+          <option value="backend">Backend Developer</option>
+          <option value="ui-ux">UI / UX Designer</option>
+          <option value="dll">Dll</option>
+
+        </select>
+
+        <label for="tgl-kerja">Tanggal ketersedian Mulai Bekerja</label>
+        <input type="date" name="tgl-kerja" id="tgl-kerja">
+
+        <label class="jenis-kerja">Jenis Pekerjaan</label>
+        <label for="full-time">Full Time</label>
+        <input type="radio" id="full-time" name="jenis-kerja" value="full-time">
+
+        <label for="part-time">Part Time</label>
+        <input type="radio" id="part-time" name="jenis-kerja" value="part-time">
+
+        <label for="freelance">Freelance</label>
+        <input type="radio" id="freelance" name="jenis-kerja" value="freelance">
+      </fieldset>
+
+      <fieldset>
+        <legend>Pendidikan & Pengalaman</legend>
+        <label for="pendidikan">Pendidikan Terakhir</label>
+        <select name="pendidikan" id="pendidikan">
+          <option value="">-- Pilihan --</option>
+          <option value="sma-smk">SMA/SMK</option>
+          <option value="d3">D3</option>
+          <option value="s1">S1</option>
+          <option value="dll">DLL</option>
+        </select>
+
+        <label for="pengalaman">Pengalaman Kerja</label>
+        <textarea name="pengalaman" id="pengalaman" rows="5" cols="35" placeholder="Pernah bekerja...."></textarea>
+
+        <label for="keahlian">Kealian Utama</label>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="html">
+
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="css">
+
+        <label for="js">Java Script</label>
+        <input type="checkbox" id="js" name="js">
+
+        <label for="git">Git</label>
+        <input type="checkbox" id="git" name="git">
+
+        <label for="dll">Dll</label>
+        <input type="text" id="dll" name="dll" placeholder="keahlian lain...">
+
+
+
+
+      </fieldset>
+
+
+
+
+    </form>
+  </main>
+
 
 </body>
 
