@@ -1682,8 +1682,13 @@
     <h2>30 Days of Coding challenge - Day24</h2>
   </header>
   <main class="mainDay-25">
-    <h2 class="title-Day25">Form Lamaran Kerja Online</h2>
+
     <form action="#" method="post">
+      <header>
+        <h2 class="title-Day25">Form Lamaran Kerja Online</h2>
+      </header>
+
+
       <fieldset>
         <legend>Data Pribadi</legend>
         <label for="nama">Nama Lengkap:</label>
@@ -1717,7 +1722,7 @@
         <label for="tgl-kerja">Tanggal ketersedian Mulai Bekerja</label>
         <input type="date" name="tgl-kerja" id="tgl-kerja">
 
-        <label class="jenis-kerja">Jenis Pekerjaan</label>
+        <p>jenis Pekerjaan:</p>
         <label for="full-time">Full Time</label>
         <input type="radio" id="full-time" name="jenis-kerja" value="full-time">
 
@@ -1742,31 +1747,49 @@
         <label for="pengalaman">Pengalaman Kerja</label>
         <textarea name="pengalaman" id="pengalaman" rows="5" cols="35" placeholder="Pernah bekerja...."></textarea>
 
-        <label for="keahlian">Kealian Utama</label>
+        <p>keahlian Utama:</p>
         <label for="html">HTML</label>
-        <input type="checkbox" id="html" name="html">
+        <input type="checkbox" id="html" name="keahlian[]" value="HTML">
 
         <label for="css">CSS</label>
-        <input type="checkbox" id="css" name="css">
+        <input type="checkbox" id="css" name="keahlian[]" value="CSS">
 
         <label for="js">Java Script</label>
-        <input type="checkbox" id="js" name="js">
+        <input type="checkbox" id="js" name="keahlian[]" value="Java Script">
 
         <label for="git">Git</label>
-        <input type="checkbox" id="git" name="git">
+        <input type="checkbox" id="git" name="keahlian[]" value="Git">
 
         <label for="dll">Dll</label>
         <input type="text" id="dll" name="dll" placeholder="keahlian lain...">
+      </fieldset>
 
+      <fieldset>
+        <legend>Upload Dokumen</legend>
+        <label for="cv">Upload CV/Resume</label>
+        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
 
-
+        <label for="porto">Upload Portofolio(opsional)</label>
+        <input type="file" id="porto" name="porto">
 
       </fieldset>
+
+      <fieldset>
+        <legend>Persetujuan</legend>
+        <label for="persetujuan">Saya menyatakan data di atas benar dan dapat dipertanggungjawabkan</label>
+        <input type="checkbox" id="persetujuan" name="persetujuan" value="Setuju"><br>
+      </fieldset>
+
+
+      <button type="submit" name="submit" value="terkirim">Kirim Lamaran</button>
+      <button type="reset">reset</button>
+
 
 
 
 
     </form>
+
   </main>
 
 
