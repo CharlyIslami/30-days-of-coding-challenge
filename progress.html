@@ -1679,7 +1679,7 @@
   <!-- Day 25 -->
   <header class="header-day25">
     <h1>Charly Islami</h1>
-    <h2>30 Days of Coding challenge - Day24</h2>
+    <h2>30 Days of Coding challenge - Day25</h2>
   </header>
   <main class="mainDay-25">
 
@@ -1722,15 +1722,23 @@
         <label for="tgl-kerja">Tanggal ketersedian Mulai Bekerja</label>
         <input type="date" name="tgl-kerja" id="tgl-kerja">
 
-        <p>jenis Pekerjaan:</p>
-        <label for="full-time">Full Time</label>
-        <input type="radio" id="full-time" name="jenis-kerja" value="full-time">
+        <p>Jenis Pekerjaan:</p>
+        <div class="radio-group">
+          <div class="radio-item">
+            <input type="radio" id="full-time" name="jenis-kerja" value="full-time">
+            <label for="full-time">Full Time</label>
+          </div>
 
-        <label for="part-time">Part Time</label>
-        <input type="radio" id="part-time" name="jenis-kerja" value="part-time">
+          <div class="radio-item">
+            <input type="radio" id="part-time" name="jenis-kerja" value="part-time">
+            <label for="part-time">Part Time</label>
+          </div>
 
-        <label for="freelance">Freelance</label>
-        <input type="radio" id="freelance" name="jenis-kerja" value="freelance">
+          <div class="radio-item">
+            <input type="radio" id="freelance" name="jenis-kerja" value="freelance">
+            <label for="freelance">Freelance</label>
+          </div>
+        </div>
       </fieldset>
 
       <fieldset>
