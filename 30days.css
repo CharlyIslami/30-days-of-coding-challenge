@@ -1454,6 +1454,7 @@ textarea:focus {
   padding: 20px;
   border-radius: 10px;
   margin: 10px;
+  margin-bottom: 30px;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1469,7 +1470,41 @@ textarea:focus {
   color: white;
   font-weight: bold;
   border-radius: 5px;
-  padding: 10px;
+  padding: 8px 12px;
   margin: 0 auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
 }
+
+.mainDay-25 label {
+  display: block;
+  margin-top: 10px;
+}
+
+.mainDay-25 input[type="text"],
+.mainDay-25 input[type="email"],
+.mainDay-25 input[type="tel"] {
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.mainDay-25 textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.mainDay-25 input:focus,
+.mainDay-25 textarea:focus {
+  border-color: #2e4a62;
+  box-shadow:  0 0 5px rgba(46, 74, 98, 0.5);
+  outline: none;
+}
+  
+.mainDay-25 input[type="date"] {
+  padding: 5px 4px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+} 
