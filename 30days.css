@@ -1440,6 +1440,13 @@ textarea:focus {
   color: white;
 }
 
+.title-Day25 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  color: #1a365d;
+}
+
 .mainDay-25 {
   max-width: 600px;
   margin: 0 auto;
@@ -1498,7 +1505,10 @@ textarea:focus {
   margin-bottom: 15px;
 }
 
-.mainDay-25 input:focus,
+.mainDay-25 input[type="text"]:focus,
+.mainDay-25 input[type="email"]:focus,
+.mainDay-25 input[type="tel"]:focus,
+.mainDay-25 select:focus,
 .mainDay-25 textarea:focus {
   border-color: #2e4a62;
   box-shadow:  0 0 5px rgba(46, 74, 98, 0.5);
@@ -1506,6 +1516,7 @@ textarea:focus {
 }
   
 .mainDay-25 input[type="date"] {
+  width: 95%;
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
@@ -1520,8 +1531,7 @@ textarea:focus {
   margin-bottom: 15px;
 }
 
-.mainDay-25 input[type="checkbox"],
-.mainDay-25 input[type="radio"] {
+.mainDay-25 input[type="checkbox"] {
   margin-right: 8px;
   transform: scale(1.1);
   cursor: pointer;
@@ -1551,8 +1561,40 @@ textarea:focus {
   accent-color: #1a365d;
 }
 
-.mainDay-25 input[type="file"]{
-  background-color: #003366;
-  padding: 10px;
+.mainDay-25 input[type="file"] {
   width: 95%;
+  border: 1px solid #ccc;
+  background-color: #e6f3ff;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
 }
+
+.mainDay-25 button {
+  padding: 11px;
+  margin: 5px 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.mainDay-25 button[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+}
+
+.mainDay-25 button[type="reset"] {
+  background-color: #d3d3d3;
+  color: white; 
+}
+
+.mainDay-25 button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
