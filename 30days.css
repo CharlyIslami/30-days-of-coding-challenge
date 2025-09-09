@@ -1635,6 +1635,13 @@ textarea:focus {
   padding: 20px 0;
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2.5rem;
+}
+
+.navigation-day26 ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 .navigation-day26 li{
@@ -1642,14 +1649,27 @@ textarea:focus {
 }
 
 .navigation-day26 a {
-  display: flex;
   text-decoration: none;
   transition: all 0.3s ease;
+  display: inline-block;
+  color: #374151;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 6px;
 }
 
 .navigation-day26 a:hover {
-  transform: scale(1.05);
+  transform: translateY(-2px);
   text-decoration: underline;
+  cursor: pointer;
+  background-color: rgba(59, 130, 246, 0.1);
+  color: #2563eb;
+}
+
+.section-day26 {
+  background: linear-gradient(90deg, #ffffff 0%, #f9fafb 100%);
+  padding: 20px 30px;
+
 }
 
 
