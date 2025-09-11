@@ -1654,7 +1654,7 @@ textarea:focus {
   display: inline-block;
   color: #374151;
   font-size: 1rem;
-  padding: 12px 30px;
+  padding: 10px 25px;
   border-radius: 6px;
 }
 
@@ -1669,7 +1669,46 @@ textarea:focus {
 .section-day26 {
   background: linear-gradient(90deg, #ffffff 0%, #f9fafb 100%);
   padding: 20px 30px;
+  border-radius: 6px;
+  max-width: 1250px;
+  margin: 0 auto 2.5rem auto;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+}
 
+.hero-content-day26 {
+  text-align: center;
+}
+
+.hero-content-day26 p{
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-content-day26 h2 {
+  font-weight: bold;
+  color: #2563eb;
+  font-size: 2.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.hero-content-day26 a {
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #2563eb; 
+  color: #2563eb;
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hero-content-day26 a:hover {
+  transform: scale(1.05);
+  color: white;
+  cursor: pointer;
+  background-color: #2563eb;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 
