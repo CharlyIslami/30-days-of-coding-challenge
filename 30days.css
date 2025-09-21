@@ -1802,7 +1802,7 @@ textarea:focus {
   gap: 1.5rem;
   background: linear-gradient(45deg, #e0e7ff 0%, #f0f9ff 100%);
   border-radius: 5px;
-  margin: 20px;
+  margin-bottom: 1rem;
   padding: 20px 30px;
 }
 
@@ -1825,7 +1825,7 @@ textarea:focus {
 .projects-item a {
   text-decoration: none;
   color: white;
-  background-color: #007BFF;
+  background-color: #2563eb;
   border-radius: 5px;
   text-align: center;
   font-size: 1.1rem;
@@ -1842,5 +1842,76 @@ textarea:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   background-color: #0077cc;
 }
+
+.contact-day26 {
+  background: linear-gradient(90deg, #ffffff 0%, #f9fafb 100%);
+  max-width: 1250px;
+  margin: 0 auto 2.5rem auto;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.contact-content h2 {
+  color: #2563eb;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  background: linear-gradient(90deg, #f9fafb 0%, #ffffff 100%);
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.contact-item h4 {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.contact-item p {
+  color: #374151;
+  font-size: 1.1rem;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: white;
+  background-color: #2563eb;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.contact-item a:hover {
+  transform: scale(1.03) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #1d4ed8;
+}
+
+.footer-day26 {
+  background-color: #1f2937; 
+  color: white;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-day26 p {
+  font-size: 1.1rem;
+}
+  
+
 
 
