@@ -1911,7 +1911,78 @@ textarea:focus {
 .footer-day26 p {
   font-size: 1.1rem;
 }
+
+.header-day27 {
+  background: linear-gradient(45deg, #777, #fff8f0);
+  padding: 20px 30px;
+  margin: 50px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
   
+.header-day27 h1 {
+  font-size: 2.5rem;
+  color: #444;
+  letter-spacing: 1px;
+}
 
+.header-day27 h2 {
+  letter-spacing: 1px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 
+.header-day27 p {
+  text-align: center;
+  font-size: 1rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.navigation-day27 {
+  background-color: #333;
+  padding: 10px;
+
+}
+
+.navigation-day27 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-day27 li {
+  margin: 8px 0;
+}
+
+.navigation-day27 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .navigation-day27 {
+    padding: 30px 30px;
+    font-size: 1.1rem;
+  }
+  .navigation-day27 ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .navigation-day27 li {
+    margin: 0;
+  }
+}
+
+.navigation-day27 a:hover {
+  transform: translateY(-2px) scale(1.05);
+  background-color: #777;
+  color: #00c6ff ;
+}
 
