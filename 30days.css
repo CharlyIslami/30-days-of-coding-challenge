@@ -1927,7 +1927,7 @@ textarea:focus {
 
 .header-day27 h2 {
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 1.7rem;
   margin-bottom: 20px;
 }
 
@@ -1939,9 +1939,10 @@ textarea:focus {
 }
 
 .navigation-day27 {
-  background-color: #333;
-  padding: 10px;
-
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
 }
 
 .navigation-day27 ul {
@@ -1956,7 +1957,7 @@ textarea:focus {
 
 .navigation-day27 a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
   display: inline-block;
   transition: all 0.3s ease-in-out;
@@ -1966,7 +1967,7 @@ textarea:focus {
 
 @media (min-width: 768px) {
   .navigation-day27 {
-    padding: 30px 30px;
+    padding: 20px 30px;
     font-size: 1.1rem;
   }
   .navigation-day27 ul {
@@ -1983,6 +1984,9 @@ textarea:focus {
 .navigation-day27 a:hover {
   transform: translateY(-2px) scale(1.05);
   background-color: #777;
-  color: #00c6ff ;
+  color: #00c6ff;
+  text-decoration: underline;
 }
+
+
 
