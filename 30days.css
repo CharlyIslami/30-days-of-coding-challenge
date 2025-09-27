@@ -1927,15 +1927,20 @@ textarea:focus {
   transition: 0.3s;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
   }
-  .nav-menu-day27 {
+  .navigation-day26 .nav-menu-day27 {
     display: none;
   }
-
-
+  .menu-toggle:checked ~ .nav-menu-day27 {
+    display: block;
+  }
 }
 
 
