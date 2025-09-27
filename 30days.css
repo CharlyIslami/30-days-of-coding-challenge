@@ -1919,7 +1919,7 @@ textarea:focus {
   padding: 10px;
 }
 
-.hambuger span {
+.hamburger span {
   width: 25px;
   height: 3px;
   background-color: #333;
@@ -1928,7 +1928,7 @@ textarea:focus {
 }
 
 @media (max-width: 768px) {
-  .hambuger {
+  .hamburger {
     display: flex;
   }
   .nav-menu-day27 {
