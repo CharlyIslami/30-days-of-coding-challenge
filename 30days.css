@@ -1887,7 +1887,7 @@ textarea:focus {
   padding: 8px 12px;
   font-size: 1rem;
   border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   font-weight: bold;
   transition: all 0.3s ease-in-out;
   display: inline-block;
@@ -1906,6 +1906,7 @@ textarea:focus {
   padding: 40px 20px;
   text-align: center;
   width: 100%;
+  margin-bottom: 4rem;
 }
 
 .footer-day26 p {
@@ -1951,4 +1952,31 @@ textarea:focus {
   }
 }
 
+.header-day28 {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  padding: 20px 30px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.header-day28 h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.header-day28 h2 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.header-day28 p {
+  color: #f3e5f5;
+  font-style: italic;
+  font-size: 1.1rem;
+}
 
