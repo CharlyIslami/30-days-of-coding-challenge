@@ -1943,5 +1943,12 @@ textarea:focus {
   }
 }
 
+@media (max-width: 768px) {
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 
 
