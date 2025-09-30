@@ -1980,3 +1980,153 @@ textarea:focus {
   font-size: 1.1rem;
 }
 
+.main-day28 {
+  background: #f8f9fa;
+  padding: 20px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 75px;
+}
+
+.SocialMediaDashboard {
+  background: linear-gradient(180deg, #667eea, #764ba2, #f093fb);
+  padding: 40px 25px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.SocialMediaDashboard ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hoverOverview {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hoverIG {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hoverTwitter {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hoverFacebook {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hoverAnalytics {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hoverSettings {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hoverOverview:hover {
+  transform: scale(1.02) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #20C997;
+}
+
+.hoverIG:hover {
+  transform: scale(1.02) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(45deg, #F77737, #E1306C, #833AB4, #FCAF45);
+}
+
+.hoverTwitter:hover {
+  transform: scale(1.02) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #1DA1F2;
+}
+
+.hoverFacebook:hover {
+  transform: scale(1.02) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #1877F2;
+}
+
+.hoverAnalytics:hover {
+  transform: scale(1.02) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #F9AB00;
+}
+
+.hoverSettings:hover {
+  transform: scale(1.02) translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #6C757D;
+}
+
+.SocialMediaDashboard a {
+  position: relative;
+  color: white;
+}
+
+.SocialMediaDashboard a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: currentColor;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.SocialMediaDashboard a:hover::after {
+  width: 100%;
+}
+
+
+
+
+
