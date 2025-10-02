@@ -2134,6 +2134,7 @@ textarea:focus {
 }
 
 .sosmed-cards {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -2142,12 +2143,39 @@ textarea:focus {
 
 .stat-items {
   letter-spacing: 1px;
-  font-size: large;  
+  font-size: 1.1rem;  
+  line-height: 1.6;
+}
+
+.overview {
+  border-left: 5px solid #6c63ff; 
+}
+
+.instagram {
+  border-left: 5px solid #E4405F; 
+}
+
+.twitter {
+  border-left: 5px solid #1DA1F2; 
+}
+
+.facebook {
+  border-left: 5px solid #1877F2; 
+}
+
+.analytics {
+  border-left: 5px solid #4CAF50; 
+}
+
+.settings {
+  border-left: 5px solid #FF9800; 
 }
 
 .sosmed-cards:hover {
   transform: translateY(-2px) scale(1.03);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+
 }
 
 .footer-day28 {
