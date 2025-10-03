@@ -2149,26 +2149,32 @@ textarea:focus {
 
 .overview {
   border-left: 5px solid #6c63ff; 
+  background: linear-gradient(135deg, #f0efff, #fafaff);
 }
 
 .instagram {
   border-left: 5px solid #E4405F; 
+  background: linear-gradient(135deg, #fff0f5, #ffe8f0);
 }
 
 .twitter {
   border-left: 5px solid #1DA1F2; 
+  background: linear-gradient(135deg, #e7f5ff, #f0f9ff);
 }
 
 .facebook {
   border-left: 5px solid #1877F2; 
+  background: linear-gradient(135deg, #eef2ff, #f5f8ff);
 }
 
 .analytics {
   border-left: 5px solid #4CAF50; 
+  background: linear-gradient(135deg, #f0fff4, #f7fef9);
 }
 
 .settings {
   border-left: 5px solid #FF9800; 
+  background: linear-gradient(135deg, #fff9f0, #fffbf5);
 }
 
 .sosmed-cards:hover {
