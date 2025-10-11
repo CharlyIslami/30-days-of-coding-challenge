@@ -2259,4 +2259,53 @@ textarea:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: var(--day29-spacing-md);
+  padding: var(--day29-spacing-md);
 }
+
+.header-day29 {
+  background: linear-gradient(135deg, var(--day29-pink), var(--day29-purple), var(--day29-orange));
+  padding: var(--day29-spacing-lg) var(--day29-spacing-md);
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1200px;
+  letter-spacing: 1px;
+}
+
+.header-day29 h1 {
+  color: white;
+}
+
+.header-day29 h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--day29-spacing-sm);
+  letter-spacing: -1px;
+  
+}
+
+.tagline-day29 {
+  margin: 15px 0 0 0;
+}
+
+.title-hero-day29 h2{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
+  text-transform: uppercase;
+  margin-bottom: var(--day29-spacing-sm);
+}
+
+.subtitle-hero-day29 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--day29-text-gray);
+  max-width: 800px;
+  text-align: center;
+}
+
+
+
