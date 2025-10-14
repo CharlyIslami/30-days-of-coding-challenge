@@ -2297,6 +2297,18 @@ textarea:focus {
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.20);
   text-transform: uppercase;
   margin-bottom: var(--day29-spacing-sm);
+  animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .subtitle-hero-day29 {
@@ -2305,6 +2317,18 @@ textarea:focus {
   color: var(--day29-text-gray);
   max-width: 800px;
   text-align: center;
+  animation: fadeInOut 1s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .cta-day29 {
@@ -2319,15 +2343,49 @@ textarea:focus {
   margin-top: var(--day29-spacing-md);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: var(--day29-spacing-lg);
   text-align: center;
   max-width: 250px;
   box-shadow: 0px 4px 12px rgba(255, 107, 157, 0.4);
   transition: all 0.3s ease;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .cta-day29:hover {
   transform: translateY(-3px);
   border: 1px solid white;
+  box-shadow: 0px 12px 30px rgba(255, 107, 157, 0.6);
 }
+
+.section-aboutme h2{
+  font-size: 3rem;
+  letter-spacing: -1px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
+  line-height: 1.2;
+  margin-bottom: var(--day29-spacing-md);
+  font-weight: 700
+}
+
+.aboutme-paragraph {
+  max-width: 950px;
+  font-size: 1.2rem;
+  color: var(--day29-text-gray);
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+
 
 
