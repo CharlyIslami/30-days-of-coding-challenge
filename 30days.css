@@ -2374,7 +2374,7 @@ textarea:focus {
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
   line-height: 1.2;
   margin-bottom: var(--day29-spacing-md);
-  font-weight: 700
+  font-weight: 700;
 }
 
 .aboutme-paragraph {
@@ -2383,6 +2383,62 @@ textarea:focus {
   color: var(--day29-text-gray);
   line-height: 1.5;
   text-align: center;
+  margin-bottom: var(--day29-spacing-lg);
+}
+
+.section-skills h2 {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
+  line-height: 1.2;
+  margin-bottom: var(--day29-spacing-md);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--day29-spacing-md);
+  padding: var(--day29-spacing-md) 0;
+}
+
+.skills-card {
+  background: #24243f;
+  border-radius: 12px;
+  padding: var(--day29-spacing-md);
+  border-top: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.skills-card:nth-child(1) { border-top-color: var(--day29-pink); }
+.skills-card:nth-child(2) { border-top-color: var(--day29-purple); }
+.skills-card:nth-child(3) { border-top-color: var(--day29-orange); }
+.skills-card:nth-child(4) { border-top-color: var(--day29-pink); }
+
+.skills-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.skills-card p {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  margin-bottom: var(--day29-spacing-sm);
+}
+
+.skills-card h3 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-top: var(--day29-spacing-sm);
+}
+
+.skills-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.20);
 }
 
 
