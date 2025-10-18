@@ -2422,23 +2422,41 @@ textarea:focus {
 }
 
 .skills-card p {
+  font-size: 1.1rem;
+  margin-bottom: var(--day29-spacing-sm);
+  line-height: 1.6;
+  color: var(--day29-text-gray);
+}
+
+.difficulty-level {
   display: flex;
   justify-content: flex-end;
-  font-size: 1.2rem;
-  margin-bottom: var(--day29-spacing-sm);
 }
 
 .skills-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   margin-top: var(--day29-spacing-sm);
+  margin-bottom: var(--day29-spacing-sm);
+  font-weight: 700;
 }
 
 .skills-card img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 5px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.20);
+}
+
+@media (max-width: 768px) {
+  .skills-container{
+    grid-template-columns: 1fr;
+  }
+  .skills-card img {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 
