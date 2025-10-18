@@ -2459,6 +2459,12 @@ textarea:focus {
   }
 }
 
+.projects-card img {
+  width: auto;
+  height: 300px;
+  border-radius: 5px;
+}
+
 
 
 
