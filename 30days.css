@@ -2469,6 +2469,9 @@ textarea:focus {
   text-transform: uppercase;
 }
 
+.section-projects {
+  margin-bottom: var(--day29-spacing-xl);
+}
 
 .projects-container {
   display: grid;
@@ -2533,6 +2536,70 @@ textarea:focus {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
 }
+
+.footer-day29 {
+  background-color: var(--day29-bg-dark);
+  padding: 5rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border-top: 2px solid var(--day29-text-light);
+  color: var(--day29-text-gray);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-section P {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.footer-section {
+  background: var(--day29-bg-card);
+  margin-right: 100px;
+  padding: var(--day29-spacing-sm);
+  border-radius: 5px;
+}
+.footer-section-about a {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: var(--day29-text-gray);
+  padding: var(--day29-spacing-sm);
+  transition: all 0.3s ease-in-out;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  background-color: var(--day29-bg-card);
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-section-about a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.08);
+  text-decoration: underline;
+  color: var(--day29-orange);
+}
+
+.footer-section-sosmed a {
+  text-decoration: none;
+  color: var(--day29-text-gray);
+  margin: 10px 30px;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-section-sosmed a:hover {
+  text-decoration: underline;
+  color: var(--day29-orange);
+}
+
+
+
 
 
 
