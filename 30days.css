@@ -16,6 +16,7 @@ body {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 /* Memberikan warna coklat pada judul,memposisikan nya di tengah */
@@ -2261,6 +2262,7 @@ textarea:focus {
   align-items: center;
   gap: var(--day29-spacing-md);
   padding: var(--day29-spacing-md);
+  margin-bottom: var(--day29-spacing-xl);
 }
 
 .header-day29 {
@@ -2642,4 +2644,8 @@ textarea:focus {
   .footer-day29{
     padding: var(--day29-spacing-lg) var(--day29-spacing-md);
   }
+}
+
+.header-day30 {
+  background: linear-gradient(to right, #000046, #1cb5e0);
 }
