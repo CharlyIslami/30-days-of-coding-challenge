@@ -17,6 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   min-height: 100dvh;
+  
 }
 
 /* Memberikan warna coklat pada judul,memposisikan nya di tengah */
@@ -2451,7 +2452,7 @@ textarea:focus {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.20);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .skills-container{
     grid-template-columns: 1fr;
   }
@@ -2522,7 +2523,7 @@ textarea:focus {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
   .projects-container{
     grid-template-columns: 1fr;
     gap: var(--day29-spacing-md);
@@ -2636,7 +2637,7 @@ textarea:focus {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer-container{
     grid-template-columns: 1fr;
     gap: var(--day29-spacing-lg);
@@ -2646,6 +2647,107 @@ textarea:focus {
   }
 }
 
-.header-day30 {
-  background: linear-gradient(to right, #000046, #1cb5e0);
+.mainday-30 {
+  background: linear-gradient(135deg, #000046 0%, #1cb5e0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.header-day30 {
+  padding: 120px 20px;
+  line-height: 1.7;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeInUp 1s ease-out;
+}
+
+.header-day30 h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.header-day30 h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.header-day30 p {
+  color: white;
+  margin: 20px 0 10px 0;
+  font-size: 1.1rem;
+  max-width: 600px;
+  line-height: 1.7;
+  margin: 20px auto;
+  animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #FFD700, #FFBF00);
+  padding: 18px 48px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.11);
+  animation: fadeInUp 1s ease-out 1s both;
+}
+
+.btn-primary:hover:not(:active) {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0;
+  cursor: pointer;
+  background: linear-gradient(45deg, #E6C300, #E6A800);
+}
+
+.btn-primary:active {
+  transition: all 0.05s ease;
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+  .mainday-30 {
+    padding: 60px 10px;
+  }
+  .header-day30 h1 {
+    font-size: 2rem;
+  }
+  .header-day30 h2 {
+    font-size: 1.3rem;
+  }
+  .header-day30 p {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+  .btn-primary {
+    padding: 14px 30px;
+    font-size: 0.95rem;
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
