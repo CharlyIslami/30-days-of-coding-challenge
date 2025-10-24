@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "poppins", sans-serif;
+   min-height: 100vh;
+   min-height: 100dvh;
+   overflow-x: hidden;
+   line-height: 1.6;
+}
+
+.navigation {
+    background: #333;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.navigation li:first-child {
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.navigation a:hover {
+    color: black;
+    background-color: #f0f0f0;
+}
+
+
