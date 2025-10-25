@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
    font-family: "poppins", sans-serif;
    min-height: 100vh;
@@ -13,36 +16,15 @@ body {
 }
 
 .navigation {
-    background: #333;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.1);
-}
-
-.navigation ul {
+    background: #1a202c;
+    padding: 20px 40px;
     display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    gap: 30px;
-}
-
-.navigation li:first-child {
-    margin-right: auto;
-    margin-left: 50px;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: white;
-    transition: all 0.3s ease;
-    padding: 10px;
-    border-radius: 5px; 
-}
-
-.navigation a:hover {
-    color: black;
-    background-color: #f0f0f0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0,1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 
