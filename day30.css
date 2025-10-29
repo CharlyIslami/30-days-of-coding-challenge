@@ -25,6 +25,18 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .brand-link {
@@ -45,6 +57,11 @@ body {
 .brand-link:active {
     transform: translateY(0) scale(0.98);
     transition: all 0.1s ease;
+}
+
+.brand-link:focus {
+    outline: 2px solid #4fd1c5;
+    outline-offset: 2px;
 }
 
 .brand-icon {
@@ -75,6 +92,7 @@ body {
 .nav-link {
     position: relative;
     text-decoration: none;
+    margin: 0 auto;
     color: white;
     display: inline-block;
     padding: 10px 20px;
@@ -111,6 +129,85 @@ body {
     background-color: rgba(79, 209, 196, 0.11);
     transition: all 0.1s ease;
 }
+
+.nav-link:focus {
+    outline: 2px solid #4fd1c5;
+    outline-offset: 2px;
+}
+
+.main-section {
+    background: #2e3950;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    padding: 60px;
+    line-height: 1.7;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    color: white;
+    margin-left: 40px;
+}
+
+.nol {
+    color: #41b1da;
+    font-size: 3rem;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #b8b8d1;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #4bb4da;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(79, 209, 196, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background: #4dc0bc;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(79, 209, 196, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    background: #2c6b82;
+    color: white;
+    box-shadow: 0 10px 15px rgba(79, 209, 196, 0.11);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-3px);
+    background: #307472;
+    color: white;
+    box-shadow: 0 10px 15px rgba(79, 209, 196, 0.11);
+
+}
+
+
 
 
 
