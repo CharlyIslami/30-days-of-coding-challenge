@@ -137,9 +137,6 @@ body {
 
 .main-section {
     background: #2e3950;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero {
@@ -219,6 +216,8 @@ body {
     transform: translateY(0) scale(0.98);
     transition: all 0.1s ease;
 }
+
+
 
 
 
