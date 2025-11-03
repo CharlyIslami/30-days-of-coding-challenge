@@ -205,35 +205,40 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 15px 40px;
-    color: black;
     margin: 10px;
     border-radius: 50px;
-    box-shadow: 0 5px 10px rgba(79, 209, 196, 0.1);
-    transition: all 0.3s ease;
     font-weight: 600;
     font-size: 1.1rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
 }
 
 .btn-primary {
-    background: #4bb4da;
+    background: #41b1dada;
+    color: #1a2332;
+    box-shadow: 0 5px 10px rgba(65, 177, 218, 0.3);
 }
 
 .btn-secondary {
-    background: #4dc0bc;
+    background: transparent;
+    color: white;
+    border: 2px solid #41b1da;
+    box-shadow: 0 5px 10px rgba(65, 177, 218, 0.2);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    background: #2c6b82;
+    background: #359bb8;
     color: white;
-    box-shadow: 0 10px 15px rgba(79, 209, 196, 0.11);
+    box-shadow: 0 10px 20px rgba(65, 177, 218, 0.5);
 }
 
 .btn-secondary:hover {
     transform: translateY(-3px);
-    background: #307472;
-    color: white;
-    box-shadow: 0 10px 15px rgba(79, 209, 196, 0.11);
+    background: #41b1da;
+    color: #1a2332;
+    border-color: #41b1da;
+    box-shadow: 0 10px 20px rgba(65, 177, 218, 0.5);
 }
 
 .btn-primary:active,
