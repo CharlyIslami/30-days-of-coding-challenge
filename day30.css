@@ -424,4 +424,25 @@ body {
     margin-top: 15px;
 }
 
+.testimoni {
+    padding: 80px 0;
+}
 
+.testimoni-heading {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.testimoni-heading h2 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    margin-bottom: 15px;    
+}
+
+.testimoni-subtitle {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.7;
+}
