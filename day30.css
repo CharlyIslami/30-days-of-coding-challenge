@@ -289,7 +289,7 @@ body {
 }
 
 .program-card {
-    background: #1a2332;
+    background: #2e3950;
     border: 1px solid rgba(65, 177, 218, 0.2);
     padding: 40px 30px;
     border-radius: 12px;
@@ -373,6 +373,7 @@ body {
     font-size: 1.5rem;
     margin-bottom: 15px;
     letter-spacing: -0.5px;
+    font-weight: 800;
 }
 
 .materi-card p {
@@ -392,15 +393,35 @@ body {
     transform: scale(1.1);
 }
 
-.duration {
-    display: block;
-    margin-top: 20px;
-    font-size: 1.2rem;
+.materi-card:nth-child(1) .icon {
+    color: #e34c26;
 }
 
+.materi-card:nth-child(2) .icon {
+    color: #f7df1e;
+}
+.materi-card:nth-child(3) .icon {
+    color: #61dafb;
+}
+.materi-card:nth-child(4) .icon {
+    color: #68a036;
+}
+.materi-card:nth-child(5) .icon {
+    color: #4db33d;
+}
+.materi-card:nth-child(6) .icon {
+    color: #ffffff;
+}
 
-
-
-
+.duration {
+    display: inline-block;
+    background: rgba(65, 177, 218, 0.2);
+    color: #41b1da;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
 
 
