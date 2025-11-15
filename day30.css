@@ -255,6 +255,7 @@ body {
 
 .program {
     padding: 80px 0;
+    background: #2e3950;
 }
 
 .program-heading {
@@ -289,7 +290,7 @@ body {
 }
 
 .program-card {
-    background: #2e3950;
+    background: #1a2332;
     border: 1px solid rgba(65, 177, 218, 0.2);
     padding: 40px 30px;
     border-radius: 12px;
@@ -331,6 +332,7 @@ body {
 
 .materi {
     padding: 80px 0;
+    background: #1a2332;
 }
 
 .materi-heading {
@@ -426,6 +428,7 @@ body {
 
 .testimoni {
     padding: 80px 0;
+    background: #2e3950;
 }
 
 .testimoni-heading {
@@ -445,4 +448,71 @@ body {
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.7;
+}
+
+.testimoni-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.testimoni-card {
+    background: #1a2332;
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.testimoni-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(65, 177, 218, 0.3);
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    background: #2e3950;
+    border: 3px solid #41b1da;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.profile-img i {
+    font-size: 2rem;
+    color: #41b1da;
+}
+
+.quote-icon {
+    font-size: 1.5rem;
+    color: #41b1da;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+.testimoni-text {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimoni-authors {
+    margin-top: 20px;
+}
+
+.author-name {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.author-role {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
 }
