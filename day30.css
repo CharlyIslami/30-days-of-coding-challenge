@@ -136,7 +136,7 @@ body {
 }
 
 .main-section {
-    background: #2e3950;
+    background: #1a2332;
 }
 
 .hero {
@@ -499,6 +499,7 @@ body {
     line-height: 1.7;
     font-style: italic;
     margin-bottom: 20px;
+    min-height: 120px;
 }
 
 .testimoni-authors {
@@ -514,5 +515,7 @@ body {
 
 .author-role {
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
 }
+
+
