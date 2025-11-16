@@ -272,7 +272,7 @@ body {
 }
 
 .program-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -349,7 +349,7 @@ body {
 }
 
 .materi-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.6;
 }
@@ -445,7 +445,7 @@ body {
 }
 
 .testimoni-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.7;
 }
@@ -516,6 +516,63 @@ body {
 .author-role {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.faq {
+    padding: 80px 0;
+}
+
+.faq-heading {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.faq-heading h2 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.faq-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.faq-card {
+    background: #2e3950;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(65, 177, 218, 0.3);;
+}
+
+.faq-question {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #41b1da;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    min-height: 40px;
+}
+
+.faq-answer {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
 }
 
 
