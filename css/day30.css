@@ -608,4 +608,59 @@ body {
     margin-top: 20px;
 }
 
+.form-pendaftaran {
+    padding: 80px 0;
+}
 
+.form-daftar {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #2e3950;
+    padding: 50px 40px;
+    color: #41b1da;
+    border-radius: 20px;
+}
+
+.form-daftar label {
+    margin-bottom: 8px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+
+}
+
+.form-daftar label:first-of-type{
+    margin-top: 0;
+}
+
+.form-daftar input,
+.form-daftar select,
+.form-daftar textarea {
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    outline: none;
+    background: #f5f5f5;
+}
+
+.form-daftar input:focus, 
+.form-daftar select:focus, 
+.form-daftar textarea:focus {
+    border: 2px solid rgba(65, 177, 218, 0.5);
+    box-shadow: 0 0 10px rgba(65, 177, 218, 0.2);
+}
+
+.form-daftar select {
+    color: rgba(65, 177, 218, 0.6);
+}
+
+.form-daftar input::placeholder,
+.form-daftar textarea::placeholder {
+    color: rgba(65, 177, 218, 0.6);
+    font-size: 1rem;
+}
+
+.form-daftar button {
+    margin-top: 35px;
+}
