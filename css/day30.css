@@ -664,3 +664,88 @@ body {
 .form-daftar button {
     margin-top: 35px;
 }
+
+.footer-pendaftaran {
+    padding: 50px 0;
+    background: #0f1419;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-logo {
+    text-decoration: none;
+}
+
+.footer-tagline {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    max-width: 400px;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+.footer-column h4 {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.footer-links {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #41b1da;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #41b1da;
+    transform: translateY(-2px);
+}
+
+
